@@ -1,0 +1,4 @@
+Flashing AtTiny13:
+  * Enable dW, disable DIV8.... See manual on fuses:
+avrdude -p t13 -c dragon_isp -P usb -B 1200 -U hfuse:w:0xe3:m -U lfuse:w:0x32:m
+
