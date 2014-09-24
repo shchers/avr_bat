@@ -1,13 +1,13 @@
 # Simple battary monitor device
 This device developed for monitoring car accumulator battary and notifying in case of problems with batt or generator.
 It has a four LEDs with the next states:
-  * Red (high) - power is over 14.5V means that something wromg woth generator
-  * Red (high) + Green - generator works and battary in charging mode
-  * Green - battary charged and power in range of 99-40%
-  * Green + Yellow - battary discharged and power in range of 40-30%
-  * Yellow - battary discharged and power in range of 30-20%
-  * Yellow + Red (low) - battary heavy discharged, i.e. power in range of 20-10%
-  * Red (low) - critical discharging, power less than 10%
+  * Red (high - LED4) - power is over 14.5V means that something wromg woth generator
+  * Red (high - LED4) + Green (LED3) - generator works and battary in charging mode
+  * Green (LED3) - battary charged and power in range of 99-40%
+  * Green (LED3) + Yellow (LED2) - battary discharged and power in range of 40-30%
+  * Yellow (LED2) - battary discharged and power in range of 30-20%
+  * Yellow (LED2) + Red (low - LED1) - battary heavy discharged, i.e. power in range of 20-10%
+  * Red (low - LED1) - critical discharging, power less than 10%
 
 To build firmware on Linux shuld be installed next tools (example for Ubuntu):
 ```
