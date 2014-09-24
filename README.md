@@ -9,6 +9,13 @@ It has a four LEDs with the next states:
   * Yellow (LED2) + Red (low - LED1) - battary heavy discharged, i.e. power in range of 20-10%
   * Red (low - LED1) - critical discharging, power less than 10%
 
+Scheme:
+![Image of scheme](https://github.com/shchers/avr_bat/raw/master/hw/board_sch.png)
+
+Possible variant of PCB:
+![Image of my PCB](https://github.com/shchers/avr_bat/raw/master/hw/board_pcb.png)
+
+
 To build firmware on Linux shuld be installed next tools (example for Ubuntu):
 ```
 sudo apt-get install gcc-avr avr-libc avrdude
