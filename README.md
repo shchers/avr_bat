@@ -1,12 +1,12 @@
-# Simple battary monitor device
-This device developed for monitoring car accumulator battary and notifying in case of problems with batt or generator.
+# Simple battery monitor device
+This device developed for monitoring car accumulator battery and notifying in case of problems with batt or generator.
 It has a four LEDs with the next states:
   * Red (high - LED4) - power is over 14.5V means that something wromg woth generator
-  * Red (high - LED4) + Green (LED3) - generator works and battary in charging mode
-  * Green (LED3) - battary charged and power in range of 99-40%
-  * Green (LED3) + Yellow (LED2) - battary discharged and power in range of 40-30%
-  * Yellow (LED2) - battary discharged and power in range of 30-20%
-  * Yellow (LED2) + Red (low - LED1) - battary heavy discharged, i.e. power in range of 20-10%
+  * Red (high - LED4) + Green (LED3) - generator works and battery in charging mode
+  * Green (LED3) - battery charged and power in range of 99-40%
+  * Green (LED3) + Yellow (LED2) - battery discharged and power in range of 40-30%
+  * Yellow (LED2) - battery discharged and power in range of 30-20%
+  * Yellow (LED2) + Red (low - LED1) - battery heavy discharged, i.e. power in range of 20-10%
   * Red (low - LED1) - critical discharging, power less than 10%
 
 Scheme:
